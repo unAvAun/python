@@ -261,7 +261,13 @@
 # s3=s1+s2
 # print(s3)
 
-num_list=[]
-for i in range(1,21):
-    num_list.append(i**2)
-print(num_list)
+# num_list=[]
+# for i in range(1,21):
+#     num_list.append(i**2)
+# print(num_list)
+num_list2=[i**2 for i in range(1,21)]
+print(num_list2)
+#列表推导式
+num_list=[1,2,3,4,5,6]
+new_list=[i**2 for i in num_list if i%2==0]
+print(new_list)
